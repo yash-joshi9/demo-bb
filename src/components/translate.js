@@ -18,6 +18,7 @@ const doTranslation = async (input, languageCode, cancelToken) => {
     }
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ({ language, text }) => {
     const [translated, setTranslated] = useState('')
 
